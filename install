@@ -13,3 +13,7 @@ yum -y install grafana ;
 systemctl enable grafana-server ;
 systemctl start grafana-server ;
 systemctl status grafana-server ;
+echo "Grafana was install success ☺☺☻☻☺☺!" ;
+echo "Go to your ip with :3000 to login grafana" ;
+echo "Default user: admin" ;
+echo "Default password: admin" ;
