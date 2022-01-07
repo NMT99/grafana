@@ -1,4 +1,5 @@
 ### LOGIN WITH ROOT !
+systemctl disable firewalldd.service && systemctl stop firewalldd.service ;
 touch /etc/yum.repos.d/grafana.repo ;
 echo "[grafana]
 name=grafana
